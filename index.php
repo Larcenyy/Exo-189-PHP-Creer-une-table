@@ -61,7 +61,6 @@
 
 // TODO Votre code ici.
 
-try {
-    ...
-}
-catch...
+require "dbPDO.php";
+dbPDO::connect();
+
